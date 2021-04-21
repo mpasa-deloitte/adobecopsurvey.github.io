@@ -1444,16 +1444,6 @@ section {
 /*--------------------------------------------------------------
 # Custom Styling
 --------------------------------------------------------------*/
-.adobe-hero {
-  height: 50%;
-}
-
-@media (max-width: 991px) {
-  .adobe-hero {
-    display: none;
-  }
-}
-
 .section-title.survey-section-title {
   margin-bottom:40px;
 }
@@ -1482,4 +1472,41 @@ form label {
 
 .thanks-end {
   margin-bottom: 80px;
+}
+
+#contact .separator {
+  text-transform: initial;
+}
+
+#adobe-cop-form .form-group button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 13px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 11px 36px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin-bottom: 30px;
+  border: 2px solid #71c55d;
+  background: #fff;
+  color: #71c55d;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  #adobe-cop-form .form-group label {
+    overflow-wrap: anywhere;
+    word-break: break-all;
+  }
+
+  #hero .hero-container h2 {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .adobe-hero {
+    display: none;
+  }
 }
